@@ -18,11 +18,10 @@ is required.
 
 ![Edad-Formulario](https://user-images.githubusercontent.com/62777613/205205665-df383b1d-d16a-41e4-a261-617fd86409ff.png)
 
-If he says 17 years old, he will 
-not let him send because the minimum 
-age is 18 years.
+Those who are under 18 years 
+of age cannot fill out the Form
 
-Programming language
+# Programming language
 HTML5
 JavaScript
 CSS
