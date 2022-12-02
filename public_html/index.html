@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fomulario HTML5</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Formulario Web</h1>
+            <fieldset>
+                <legend>Detalles de Contacto</legend>
+                <form action="#">
+                    
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" autofocus="" placeholder="Escribe tu nombre" name="nombre"
+                           required="required" pattern="[a-zA-Z\s]{5,}"/>
+                    <span class="invalid">*El nombre es requerido</span>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" required="" placeholder="Escribe tu email"/>
+                    <span class="invalid">*El email es requerido</span>
+                    
+                    <label for="telefono">Telefono:</label>
+                    <input type="tel" name="telefono" required="" placeholder="Escribe tu telefono"/>
+                    <span class="invalid">*El telefono es requerido</span>
+                    
+                    <label for="pais">Pais:</label>
+                    <input name="pais" list="paises" placeholder="Escribe/Selecciona tu pais"/>
+                    <datalist id="paises">
+                        <option>Mexico</option>
+                        <option>Colombia</option>
+                        <option>Peru</option>
+                        <option>Canada</option>
+                        <option>Otro..</option>
+                    </datalist>
+                    
+                    <label for="edad">Edad:</label>
+                    <input type="number" name="edad" min="18" max="70"/>
+                    
+                    <label for="nacimiento">Fecha nacimiento:</label>
+                    <input type="date" name="nacimiento" min="1900-01-01" max="3000-12-31"/>
+                    
+                    <div>
+                        <input type="submit" value="Enviar" id="enviar"/>
+                    </div>
+                    
+                </form>
+            </fieldset>
+        </header>
+    </body>
+</html>
