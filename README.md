@@ -22,9 +22,9 @@ Those who are under 18 years
 of age cannot fill out the Form
 
 # Programming language
-HTML5
-JavaScript
-CSS
+-HTML5
+-JavaScript
+-CSS
 
 Visual Studio Code
 
